@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="184" viewBox="0 0 840 184" role="img" aria-labelledby="title desc">
+  <title id="title">Let's connect with Naveed Amiri</title>
+  <desc id="desc">Good software starts with a conversation. Project discussions, engineering ideas, and professional connections.</desc>
+  <rect x=".5" y=".5" width="839" height="183" rx="14" fill="#151c22" stroke="#344149"/>
+  <path d="M32 28h38" stroke="#b38b6c" stroke-width="3" stroke-linecap="round"/>
+  <g font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+    <text x="30" y="83" fill="#e8ecec" font-family="Georgia, 'Times New Roman', serif" font-size="36" letter-spacing="-.65">Good software starts with a conversation.</text>
+    <text x="32" y="120" fill="#a6b2b9" font-size="16">Project discussions, engineering ideas,</text>
+    <text x="32" y="144" fill="#a6b2b9" font-size="16">and professional connections.</text>
+  </g>
+</svg>

@@ -139,10 +139,15 @@ The inventory below reflects the repository manifests and configuration. Observa
 
 ## Let’s Connect
 
-For project discussions and professional connections, find me here.
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contact-intro-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/contact-intro-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contact-intro-dark.svg">
+  <img src="assets/contact-intro.svg" alt="Good software starts with a conversation. Get in touch for project discussions, engineering ideas, and professional connections." width="100%">
+</picture>
 
-| Channel | Contact |
-| --- | --- |
-| **Email** | [naveed_amiri@yahoo.com](mailto:naveed_amiri@yahoo.com) |
-| **LinkedIn** | [Naveed Amiri](https://www.linkedin.com/in/naveedamiri) |
-| **GitHub** | [@Naveed2020](https://github.com/Naveed2020) |
+<p align="center">
+  <a href="mailto:naveed_amiri@yahoo.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-email-dark.svg"><img src="assets/contact-email.svg" width="260" alt="Email Naveed Amiri: naveed_amiri@yahoo.com"></picture></a>
+  <a href="https://www.linkedin.com/in/naveedamiri"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-dark.svg"><img src="assets/contact-linkedin.svg" width="260" alt="Connect with Naveed Amiri on LinkedIn: linkedin.com/in/naveedamiri"></picture></a>
+  <a href="https://github.com/Naveed2020"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-github-dark.svg"><img src="assets/contact-github.svg" width="260" alt="Visit Naveed Amiri on GitHub: @Naveed2020"></picture></a>
+</p>

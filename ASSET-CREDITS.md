@@ -1,6 +1,6 @@
 # Asset credits
 
-The profile header, workflow illustration, and panel compositions were created for Naveed Amiri’s GitHub profile. They contain no external image, font, script, or stylesheet dependency.
+The profile header, workflow illustration, contact panels and original contact line icons, and panel compositions were created for Naveed Amiri’s GitHub profile. They contain no external image, font, script, or stylesheet dependency.
 
 The twelve technology marks are adapted from the official [Devicon repository](https://github.com/devicons/devicon), retrieved on 2026-10-11. Original mark geometry and colors are preserved; placement dimensions and internal SVG ID prefixes were added for composition. Devicon’s MIT notice is included in [assets/DEVICON-LICENSE.txt](assets/DEVICON-LICENSE.txt). The original source files do not need to be shipped with the composed panels under that license.
 
