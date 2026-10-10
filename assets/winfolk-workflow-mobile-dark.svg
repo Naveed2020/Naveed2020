@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="856" viewBox="0 0 420 856" role="img" aria-labelledby="title desc">
+  <title id="title">Winfolk — Service-business workflow</title>
+  <desc id="desc">Mobile vertical flow through lead intake, customer conversations, scheduling and jobs, field work, and financial operations. AI and automation, a tenant-aware platform, consent, and audit support the workflow. Winfolk is a private project in small-group real-world testing.</desc>
+  <rect x=".5" y=".5" width="419" height="855" rx="14" fill="#161b22" stroke="#303a46"/>
+  <g font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+    <text x="18" y="32" fill="#edf2f7" font-size="19" font-weight="600">From inquiry to business operations</text>
+    <text x="18" y="57" fill="#a4afbb" font-size="14">Winfolk · Private project</text>
+    <text x="18" y="79" fill="#a4afbb" font-size="14">Small-group real-world testing</text>
+    <g transform="translate(18 102)">
+      <rect width="384" height="98" rx="9" fill="#1c232d" stroke="#303a46"/>
+      <circle cx="31" cy="33" r="17" fill="#233239"/>
+      <text x="31" y="38" text-anchor="middle" fill="#a4c7cb" font-size="14" font-weight="700">01</text>
+      <text x="62" y="38" fill="#edf2f7" font-size="17" font-weight="600">Lead intake</text>
+      <text x="62" y="63" fill="#a4afbb" font-size="14">Forms · CRM · Lead channels</text>
+      
+    </g>
+    <path d="M49 206v10m-4-4 4 4 4-4" fill="none" stroke="#a4c7cb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(18 222)">
+      <rect width="384" height="98" rx="9" fill="#1c232d" stroke="#303a46"/>
+      <circle cx="31" cy="33" r="17" fill="#233239"/>
+      <text x="31" y="38" text-anchor="middle" fill="#a4c7cb" font-size="14" font-weight="700">02</text>
+      <text x="62" y="38" fill="#edf2f7" font-size="17" font-weight="600">Customer conversations</text>
+      <text x="62" y="63" fill="#a4afbb" font-size="14">SMS · email · Calls · Shared inbox</text>
+      
+    </g>
+    <path d="M49 326v10m-4-4 4 4 4-4" fill="none" stroke="#a4c7cb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(18 342)">
+      <rect width="384" height="98" rx="9" fill="#1c232d" stroke="#303a46"/>
+      <circle cx="31" cy="33" r="17" fill="#233239"/>
+      <text x="31" y="38" text-anchor="middle" fill="#a4c7cb" font-size="14" font-weight="700">03</text>
+      <text x="62" y="38" fill="#edf2f7" font-size="17" font-weight="600">Scheduling &amp; jobs</text>
+      <text x="62" y="63" fill="#a4afbb" font-size="14">Services · schedules</text>
+      <text x="62" y="83" fill="#a4afbb" font-size="14">Job coordination</text>
+    </g>
+    <path d="M49 446v10m-4-4 4 4 4-4" fill="none" stroke="#a4c7cb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(18 462)">
+      <rect width="384" height="98" rx="9" fill="#1c232d" stroke="#303a46"/>
+      <circle cx="31" cy="33" r="17" fill="#233239"/>
+      <text x="31" y="38" text-anchor="middle" fill="#a4c7cb" font-size="14" font-weight="700">04</text>
+      <text x="62" y="38" fill="#edf2f7" font-size="17" font-weight="600">Field work</text>
+      <text x="62" y="63" fill="#a4afbb" font-size="14">Technicians · Service areas · Maps</text>
+      
+    </g>
+    <path d="M49 566v10m-4-4 4 4 4-4" fill="none" stroke="#a4c7cb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(18 582)">
+      <rect width="384" height="98" rx="9" fill="#1c232d" stroke="#303a46"/>
+      <circle cx="31" cy="33" r="17" fill="#233239"/>
+      <text x="31" y="38" text-anchor="middle" fill="#a4c7cb" font-size="14" font-weight="700">05</text>
+      <text x="62" y="38" fill="#edf2f7" font-size="17" font-weight="600">Financial operations</text>
+      <text x="62" y="63" fill="#a4afbb" font-size="14">Invoices · receipts</text>
+      <text x="62" y="83" fill="#a4afbb" font-size="14">Costs · reporting</text>
+    </g>
+    <rect x="18" y="708" width="384" height="128" rx="9" fill="#233239"/>
+    <text x="34" y="734" fill="#a4c7cb" font-size="14" font-weight="700" letter-spacing=".8">ACROSS THE WORKFLOW</text>
+    <text x="34" y="761" fill="#edf2f7" font-size="15">AI &amp; automation</text>
+    <text x="34" y="787" fill="#edf2f7" font-size="15">Tenant-aware platform</text>
+    <text x="34" y="813" fill="#edf2f7" font-size="15">Consent &amp; audit</text>
+  </g>
+</svg>
