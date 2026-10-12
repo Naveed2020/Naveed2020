@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="226" viewBox="0 0 840 226" role="img" aria-labelledby="title desc">
   <title id="title">Naveed Amiri — Software Engineer</title>
-  <desc id="desc">Web and mobile applications, backend services, data and automation.</desc>
+  <desc id="desc">Applied AI, business applications, and systems integration.</desc>
   <rect x=".5" y=".5" width="839" height="225" rx="14" fill="#fffefa" stroke="#deded8"/>
   <path d="M32 30h38" stroke="#957252" stroke-width="3"/>
   <g font-family="'Segoe UI', Arial, Helvetica, sans-serif">
     <text x="32" y="60" fill="#69757e" font-size="12" font-weight="600" letter-spacing="1.8">SOFTWARE ENGINEER</text>
     <text x="30" y="124" fill="#282f34" font-family="Georgia, 'Times New Roman', serif" font-size="60" letter-spacing="-1.5">Naveed Amiri</text>
     <line x1="32" y1="157" x2="808" y2="157" stroke="#deded8"/>
-    <text x="32" y="191" fill="#282f34" font-size="15">Web &amp; mobile applications</text>
-    <text x="306" y="191" fill="#282f34" font-size="15">Backend services</text>
-    <text x="560" y="191" fill="#282f34" font-size="15">Data &amp; automation</text>
+    <text x="32" y="191" fill="#282f34" font-size="15">Applied AI</text>
+    <text x="306" y="191" fill="#282f34" font-size="15">Business applications</text>
+    <text x="560" y="191" fill="#282f34" font-size="15">Systems integration</text>
     <circle cx="280" cy="186" r="2" fill="#957252"/><circle cx="534" cy="186" r="2" fill="#957252"/>
   </g>
 </svg>

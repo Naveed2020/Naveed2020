@@ -2,16 +2,16 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-header-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
-  <img src="assets/profile-header.svg" alt="Naveed Amiri — Software Engineer. Web and mobile applications, backend services, data and automation." width="100%">
+  <img src="assets/profile-header.svg" alt="Naveed Amiri — Software Engineer. Applied AI, business applications, and systems integration." width="100%">
 </picture>
 
 **Based in Texas, United States.**
 
-I build business software that connects customer workflows, service delivery, and financial operations. My work spans APIs, web and mobile interfaces, and the data and background processes behind them.
+I’m Naveed Amiri, a software engineer building business applications, AI agents, and integrations that connect customer workflows with the systems behind them. My experience spans web and mobile development, Salesforce, government systems integration, and infrastructure operations.
 
 Python and Django, React and TypeScript, and Flutter and Dart are central to my current work. My broader experience also includes **C#, .NET, and SQL Server**.
 
-[Systems I Build](#systems-i-build) · [Technical Range](#technical-range) · [Winfolk Case Study](#winfolk--product-case-file) · [How I Engineer](#how-i-engineer) · [Let’s Connect](#lets-connect)
+[Systems I Build](#systems-i-build) · [Technical Range](#technical-range) · [Winfolk](#winfolk--product-case-file) · [Fixophile](#fixophile--service-platform) · [Experience](#systems--integration-experience) · [Credentials](#credentials--platform-practice) · [Let’s Connect](#lets-connect)
 
 ---
 
@@ -20,9 +20,9 @@ Python and Django, React and TypeScript, and Flutter and Dart are central to my 
 | Focus | What I work on |
 | --- | --- |
 | **Application experiences** | Customer and admin workspaces, operational dashboards, maps, and reporting. |
-| **Business workflows** | Lead follow-up, scheduling, service delivery, customer communication, and financial records. |
-| **Backend services** | Domain models, tenant context, permissions, asynchronous processing, and caching. |
-| **Connected platforms** | Provider APIs, verified webhooks, messaging and email, lead channels, and configurable AI services. |
+| **Business workflows** | Lead follow-up, service booking, technician matching and onboarding, customer communication, and financial records. |
+| **Backend services** | Domain models, tenant context, permissions, asynchronous processing, caching, and shared agent workflows. |
+| **Connected platforms** | Business-system integrations, provider APIs, verified webhooks, messaging, website chat, and tenant-specific AI knowledge. |
 
 ## Technical Range
 
@@ -40,7 +40,11 @@ Python and Django, React and TypeScript, and Flutter and Dart are central to my 
 | **Web & mobile** | React · Flutter · Tailwind CSS · React Router · Riverpod · GoRouter · responsive interfaces |
 | **Data & background work** | PostgreSQL · SQL Server · Redis · Celery · scheduled tasks · imports and exports |
 | **Integrations & applied AI** | Messaging and email providers · webhook processing · knowledge retrieval · agent workflows · evaluation and human review |
+| **Salesforce** | Platform administration · Apex · Flow · reports and dashboards · user authentication · MFA/SSO — through certifications and hands-on platform practice |
+| **Cloud & infrastructure** | Microsoft Azure · hosting and deployment · DNS · servers and networking · data-center operations · Veeam · backup and recovery |
 | **Delivery & diagnostics** | Git · Docker · Docker Compose · Vite · npm · pip · Flutter Pub · automated tests · structured logging |
+
+Additional familiarity includes **Laravel** and **OAuth concepts**.
 
 ## Winfolk · Product Case File
 
@@ -48,11 +52,13 @@ Python and Django, React and TypeScript, and Flutter and Dart are central to my 
 
 **Private project · Web and mobile · Small-group real-world testing**
 
-Winfolk connects lead intake, customer conversations, scheduling, field work, and financial operations for contractors and trade businesses. I am developing it as a shared backend with a web dashboard and a mobile companion.
+I founded Winfolk to connect lead intake, customer conversations, scheduling, field work, and financial operations for contractors and trade businesses. I am developing it as a shared backend with a web dashboard and a mobile companion.
+
+**My role:** Product requirements, architecture, implementation, integration testing, and ongoing troubleshooting across the backend, web, and mobile applications.
 
 #### The problem
 
-For a service business, one inquiry can lead to several conversations, an appointment, a job, and a financial record. Winfolk is designed to keep that history connected throughout the workflow.
+Contractors can lose inquiries when replies are slow or conversations are spread across channels. A single inquiry can then lead to an appointment, a job, and a financial record. Winfolk is designed to support timely follow-up and keep that history connected throughout the workflow.
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/winfolk-workflow-mobile-dark.svg">
@@ -69,15 +75,19 @@ For a service business, one inquiry can lead to several conversations, an appoin
 | **Customer communication** | Shared inbox, SMS/MMS, email, call forwarding, templates, campaigns, and human takeover. |
 | **Service delivery** | Services, jobs, technicians, service areas, interactive maps, and scheduling. |
 | **Financial operations** | Invoices, transactions, budgets, receipt OCR, job costing, imports and exports, and lead-cost attribution. |
-| **AI & automation** | Provider configuration, knowledge retrieval, website agents, chat and voice workflows, evaluation, and human review. |
+| **AI & automation** | Provider configuration, knowledge retrieval, website agents, chat workflows, evaluation, and human review. |
 | **Platform administration** | Tenant lifecycle, billing, support, consent and retention workflows, audit history, and analytics. |
 
 #### Engineering decisions
 
 - **A shared service layer.** Django REST Framework serves the React dashboard and Flutter companion, with PostgreSQL for relational data and Redis for caching and background processing.
+- **A shared Agent Engine.** Tenant-specific business knowledge, services, availability, and pricing context inform agent behavior. Channel adapters let messaging and website chat share business rules.
 - **Durable notification delivery.** An outbox persists notifications before dispatch. Idempotency keys, bounded retries, and recovery of pending work help handle interruptions. Critical authentication email has a separate worker queue from routine and bulk traffic.
 - **Explicit integration boundaries.** Provider adapters and webhook verification handle outside events; tenant middleware derives company context from authenticated membership.
+- **Website integration.** A JavaScript widget and a WordPress integration path let businesses connect their existing websites. Telnyx SMS/MMS, inbound webhooks, and tenant phone-number routing support customer conversations.
 - **Operational context.** Structured logs, correlation IDs, delivery history, and an HMAC-linked audit ledger support investigation. The repository also includes an optional monitoring stack.
+
+**Planned channel:** Real-time voice support, building on the shared Agent Engine and channel-adapter design.
 
 <details>
 <summary><strong>Technology and integration inventory</strong></summary>
@@ -102,7 +112,7 @@ The inventory below reflects the repository manifests and configuration. Observa
 
 - **Messaging & email:** Telnyx · Twilio · Stalwart mail · SMTP
 - **Lead channels & website:** Thumbtack · Angi · Google Local Services Ads · WordPress/PHP · website forms and widgets
-- **AI capabilities:** Configurable AI-provider registry · knowledge retrieval · agent automation · chat and voice · evaluation and governance controls
+- **AI capabilities:** Configurable AI-provider registry · knowledge retrieval · agent automation · website chat · evaluation and governance controls
 
 #### Build, quality & operations
 
@@ -124,18 +134,52 @@ The inventory below reflects the repository manifests and configuration. Observa
 
 </details>
 
+## Fixophile · Service Platform
+
+### On-demand support, at home and online
+
+I develop Fixophile, a platform for booking technicians for in-home and online support. My full-stack work covers the customer booking experience and technician-partner onboarding.
+
+| Workflow | What I build |
+| --- | --- |
+| **Customer booking** | Service-area selection, service categories, scheduling, and technician matching. |
+| **Partner onboarding** | Personal information, location and skills, experience, and verification steps. |
+
+I own the requirements, workflow design, implementation, testing, and iterative improvement of these experiences.
+
+## Systems & Integration Experience
+
+My experience also includes connecting organizational systems and supporting the infrastructure behind them.
+
+- **Technical coordination.** Led an approximately six-person network and software team on an integration connecting the Ministry of Industry and Commerce’s ACBR licensing environment with the Ministry of Finance’s SIGTAS revenue system in Afghanistan.
+- **Infrastructure operations.** Managed a government data-center function and supported hosted applications, networking, and organizational technology across government and education settings.
+- **Backup and recovery.** Took on server-backup administration with Veeam alongside infrastructure responsibilities, helping protect critical organizational data.
+
+## Credentials & Platform Practice
+
+| Certification | Issued |
+| --- | --- |
+| **Salesforce Certified Platform Administrator** | January 2025 |
+| **Salesforce Certified Platform Developer** | March 2025 |
+
+**Salesforce Trailhead · Triple Star Ranger**
+
+Five completed Superbadges cover reports and dashboards, user authentication, MFA and single sign-on settings, Flow administration, and Apex. This hands-on practice supports my work with platform administration, declarative automation, access management, reporting, and development.
+
 ## How I Engineer
 
-- **Start with the workflow.** Give product areas understandable responsibilities and keep service boundaries clear.
+- **Start with the workflow.** Translate business problems into requirements, break complex systems into manageable components, and give product areas clear responsibilities.
 - **Keep access explicit.** Carry tenant context and permissions through requests, data access, and administrative actions.
 - **Plan for provider failures.** Verify callbacks and give background work clear retry, failure, and recovery paths.
 - **Make behavior traceable.** Keep logs, correlation context, delivery history, and audit records useful when investigating a problem.
 - **Account for the data lifecycle.** Include consent, retention, and deletion workflows alongside core product features.
 - **Check behavior at its boundaries.** Use focused tests for backend logic, frontend utilities, and mobile components.
+- **Work across system boundaries.** Coordinate technical dependencies and troubleshoot across application, network, and infrastructure layers.
 
 ## Education
 
-**Bachelor’s degree in Software Engineering**
+**Bachelor’s degree in Software Engineering**  
+Ghalib University · Graduated 2016
 
 ## Let’s Connect
 
